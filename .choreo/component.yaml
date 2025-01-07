@@ -1,0 +1,12 @@
+schemaVersion: "1.1"
+endpoints:
+    - name: root-5c6
+      displayName: root
+      service:
+        basePath: /
+        port: 8080
+      type: REST
+      networkVisibilities:
+        - Project
+        - Public
+      schemaFilePath: .
